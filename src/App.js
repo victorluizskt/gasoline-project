@@ -1,5 +1,5 @@
 import { Header } from './styles';
-import Button from './Components/Atoms/Button';
+import CalculatorGasoline from './Components/Organism/CalculatorGasoline'
 import Title from './Components/Atoms/Title';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Header>
         <Title title="Gasoline Calculator."/>
-        <Button title="Click here" />
+        <CalculatorGasoline />
       </Header>
     </div>
   );
