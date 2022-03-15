@@ -1,9 +1,15 @@
-import React from 'react'
+import { Header } from './styles';
 import Button from './Components/Atoms/Button';
+import Title from './Components/Atoms/Title';
 
 function App() {
   return (
-    <Button title="Click here" />
+    <div className="App">
+      <Header>
+        <Title title="Gasoline Calculator."/>
+        <Button title="Click here" />
+      </Header>
+    </div>
   );
 }
 
